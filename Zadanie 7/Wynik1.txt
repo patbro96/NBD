@@ -1,0 +1,40 @@
+
+labnbd@labnbd-virtual-machine:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Robert", "Klub": "Bayern", shirtNumber: 10, "repre": "poland"}' http://localhost:8098/buckets/s13716/keys/palyer1
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:39:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+labnbd@labnbd-virtual-machine:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Kuba", "Klub": "Wisla Krakow", shirtNumber: 7, "repre": "poland"}' http://localhost:8098/buckets/s13716/keys/palyer2
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:39:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+labnbd@labnbd-virtual-machine:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Ronaldo", "Klub": "Real", shirtNumber: 19, "repre": "brasil"}' http://localhost:8098/buckets/s13716/keys/palyer3
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:39:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+labnbd@labnbd-virtual-machine:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Messi", "Klub": "Barcelona", shirtNumber: 11, "repre": "argetina"}' http://localhost:8098/buckets/s13716/keys/palyer4
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:39:52 GMT
+Content-Type: application/json
+Content-Length: 0
+
+labnbd@labnbd-virtual-machine:~$ curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "De Gea", "Klub": "Manchester United", shirtNumber: 1, "repre": "Spain"}' http://localhost:8098/buckets/s13716/keys/palyer5
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:39:52 GMT
+Content-Type: application/json
+Content-Length: 0

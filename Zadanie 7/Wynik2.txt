@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVIcypz/foZIOM/NYEpkzmNlsAjKuMGXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Link: </buckets/s13716>; rel="up"
+Last-Modified: Wed, 24 Jun 2020 22:39:52 GMT
+ETag: "73RF3ISxeXfThYnD4oDVzi"
+Date: Wed, 24 Jun 2020 22:39:52 GMT
+Content-Type: application/json
+Content-Length: 75
+
+{"Name": "Kuba", "Klub": "Wisla Krakow", shirtNumber: 7, "repre": "poland"}

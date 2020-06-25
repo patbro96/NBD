@@ -1,0 +1,27 @@
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Robert", "Klub": "Bayern", shirtNumber: 10, "repre": "poland"}' http://localhost:8098/buckets/s13716/keys/palyer1
+curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Kuba", "Klub": "Wisla Krakow", shirtNumber: 7, "repre": "poland"}' http://localhost:8098/buckets/s13716/keys/palyer2
+curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Ronaldo", "Klub": "Real", shirtNumber: 19, "repre": "brasil"}' http://localhost:8098/buckets/s13716/keys/palyer3
+curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Messi", "Klub": "Barcelona", shirtNumber: 11, "repre": "argetina"}' http://localhost:8098/buckets/s13716/keys/palyer4
+curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "De Gea", "Klub": "Manchester United", shirtNumber: 1, "repre": "Spain"}' http://localhost:8098/buckets/s13716/keys/palyer5
+2.
+curl -i http://localhost:8098/buckets/s13716/keys/palyer2
+3.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Robert", "Klub": "Bayern", shirtNumber: 10, "repre": "poland", cards: 7}' http://localhost:8098/buckets/s13716/keys/palyer1
+4.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Kuba", "Klub": "Wisla Krakow", shirtNumber: 7}' http://localhost:8098/buckets/s13716/keys/palyer2
+5.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"Name": "Messi", "Klub": "Barcelona", shirtNumber: 20, "repre": "argetina"}' http://localhost:8098/buckets/s13716/keys/palyer4
+6.
+curl -i -XDELETE -H "Content-Type: application/json" http://localhost:8098/buckets/s13716/keys/palyer3
+7.
+curl -i http://localhost:8098/buckets/s13716/keys/palyer7
+8.
+curl -i -H "Content-Type: application/json" -d '{"Name": "Szpakowski"}' http://localhost:8098/buckets/s13716/keys
+9.
+curl -i http://localhost:8098/buckets/s13716/keys/R8saxUitC3L6pJAhihpCcDoSMg6
+10.
+curl -i -XDELETE -H "Content-Type: application/json" http://localhost:8098/buckets/s13716/keys/R8saxUitC3L6pJAhihpCcDoSMg6
+
+
+

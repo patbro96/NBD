@@ -1,0 +1,7 @@
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.5 (jokes are better explained)
+Date: Wed, 24 Jun 2020 22:39:52 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found
