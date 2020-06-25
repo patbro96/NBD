@@ -1,0 +1,1 @@
+printjson(db.nbd.aggregate( { $group: { _id: 1, stanowisko: {$addToSet: '$job'} } }).toArray())

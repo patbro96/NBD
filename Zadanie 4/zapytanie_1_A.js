@@ -1,0 +1,1 @@
+printjson(db.nbd.aggregate( { $group: { _id: "$sex", wzrost: {$avg: "$height"}, waga: {$avg: "$weight"} } } ).toArray())
